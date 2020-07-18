@@ -1,0 +1,3 @@
+labelPRBasedOnFilePath:
+  project-config:
+    - .github/settings.yml

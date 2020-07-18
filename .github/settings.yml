@@ -57,6 +57,10 @@ labels:
     color: '#336699'
     description: New functionality.
 
+  - name: project-config
+    color: '#336699'
+    description: Change GitHub project config :shipit: 
+
   - name: first-timers-only
     # include the old name to rename an existing label
     oldname: Help Wanted!
