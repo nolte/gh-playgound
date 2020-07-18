@@ -1,0 +1,15 @@
+site_name: "GitHub: Playground"
+site_url: https://nolte.github.io/terraform-provider-harbor/
+repo_url: https://github.com/nolte/terraform-provider-harbor
+
+nav:
+  - Getting Started: index.md
+theme: readthedocs
+markdown_extensions:
+  - toc:
+      permalink: True
+extra_css:
+  - css/table.css
+extra_javascript:
+  # fix for https://github.com/mkdocs/mkdocs/issues/2028
+  - js/table.js
