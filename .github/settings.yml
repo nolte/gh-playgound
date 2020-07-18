@@ -50,13 +50,17 @@ repository:
 labels:
   - name: bug
     color: CC0000
-    description: An issue with the system 🐛.
+    description: An issue with the system.
 
-  - name: feature
+  - name: enhancement
     # If including a `#`, make sure to wrap it with quotes!
     color: '#336699'
     description: New functionality.
 
+  - name: chore
+    color: '#6e70ef'
+    description: Maintenance
+  
   - name: question
     color: '#3ffc8a'
     description: User question
