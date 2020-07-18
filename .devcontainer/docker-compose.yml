@@ -4,16 +4,16 @@ services:
   vscode:
     build: .
     volumes:
-      - ../:/go/src/github.com/nolte/probot-playground:cached
+      - ../:/go/src/github.com/nolte/gh-playgound:cached
       - ~/.ssh:/home/vscode/.ssh:ro
       - ~/.ssh:/root/.ssh:ro
       - /var/run/docker.sock:/var/run/docker.sock
       - ~/.password-store:/home/vscode/.password-store:rw
       - ~/.gnupg:/home/vscode/.gnupg/:rw
       ## reuse volumes for extensions
-      - probot-playground-vol:/home/vscode/.vscode-server/extensions
+      - gh-playgound-vol:/home/vscode/.vscode-server/extensions
       # And/or for VS Code Insiders
-      - probot-playground-vol-insiders:/home/vscode/.vscode-server-insiders/extensions
+      - gh-playgound-vol-insiders:/home/vscode/.vscode-server-insiders/extensions
     environment:
       - TZ=Europe/Berlin # $(cat /etc/timezone)
     cap_add:
@@ -24,6 +24,6 @@ services:
     network_mode: "host"
 
 volumes:
-  probot-playground-vol:
-  probot-playground-vol-insiders:
+  gh-playgound-vol:
+  gh-playgound-vol-insiders:
     

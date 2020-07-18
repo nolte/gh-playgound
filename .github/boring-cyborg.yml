@@ -1,0 +1,8 @@
+labelPRBasedOnFilePath:
+  project-config:
+    - .github/settings.yml
+  chore:
+    - .github/**
+  documentations:
+    - docs/**
+    - mkdocs.yml

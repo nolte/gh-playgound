@@ -1,5 +1,5 @@
 {
-    "name": "probot-playground",
+    "name": "gh-playgound",
     "dockerComposeFile": [
         "docker-compose.yml"
     ],
@@ -8,13 +8,13 @@
         "vscode"
     ],
     "mounts": [
-        "source=probot-playground-vol,target=/home/vscode/.vscode-server/extensions,type=volume",
+        "source=gh-playgound-vol,target=/home/vscode/.vscode-server/extensions,type=volume",
         // And/or for VS Code Insiders
-        "source=probot-playground-vol-insiders,target=/home/vscode/.vscode-server-insiders/extensions,type=volume",
+        "source=gh-playgound-vol-insiders,target=/home/vscode/.vscode-server-insiders/extensions,type=volume",
     ],
     "shutdownAction": "stopCompose",
     "postCreateCommand": "chmod -R 700 .git",
-    "workspaceFolder": "/go/src/github.com/nolte/probot-playground",
+    "workspaceFolder": "/go/src/github.com/nolte/gh-playgound",
     // "overrideCommand": "",
     "extensions": [
         // General backend

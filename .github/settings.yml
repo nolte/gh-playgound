@@ -50,16 +50,28 @@ repository:
 labels:
   - name: bug
     color: CC0000
-    description: An issue with the system 🐛.
+    description: An issue with the system.
 
-  - name: feature
+  - name: enhancement
     # If including a `#`, make sure to wrap it with quotes!
     color: '#336699'
     description: New functionality.
 
-  - name: first-timers-only
-    # include the old name to rename an existing label
-    oldname: Help Wanted
+  - name: chore
+    color: '#6e70ef'
+    description: Maintenance
+  
+  - name: question
+    color: '#3ffc8a'
+    description: User question
+
+  - name: documentations
+    color: '#caa7e8'
+    description: Update documentation
+
+  - name: project-config
+    color: '#ed979d'
+    description: Change GitHub project config.
 
 branches:
   - name: master
