@@ -28,12 +28,3 @@ jobs:
         run: |
           cd .devcontainer
           docker build -f Dockerfile .
-  docscontainers-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: buid docs image
-        run: |
-          cd .devcontainer
-          docker build -f DockerfileDocs .
