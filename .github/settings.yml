@@ -59,7 +59,7 @@ labels:
 
   - name: first-timers-only
     # include the old name to rename an existing label
-    oldname: Help Wanted
+    oldname: Help Wanted!
 
 branches:
   - name: master
