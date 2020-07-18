@@ -6,4 +6,4 @@ description: |-
   Play project for github workflows and applications.
 ---
 
-Github Play
+Github Play 2

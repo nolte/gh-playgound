@@ -3,3 +3,6 @@ labelPRBasedOnFilePath:
     - .github/settings.yml
   chore:
     - .github/**
+  documentations:
+    - docs/**
+    - mkdocs.yml

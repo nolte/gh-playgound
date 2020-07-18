@@ -65,6 +65,10 @@ labels:
     color: '#3ffc8a'
     description: User question
 
+  - name: documentations
+    color: '#caa7e8'
+    description: Update documentation
+
   - name: project-config
     color: '#ed979d'
     description: Change GitHub project config.
