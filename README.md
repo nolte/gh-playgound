@@ -13,3 +13,4 @@ Project for play with different Github Applications.
 ## Static checks
 
 * https://github.com/adrienverge/yamllint
+* https://github.com/marketplace/actions/editorconfig-lint
