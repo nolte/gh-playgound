@@ -5,7 +5,7 @@ USER root
 
 RUN apk add --update-cache \
   nodejs npm \
-  && rm -rf /var/cache/apk/* 
+  && rm -rf /var/cache/apk/*
 
 RUN curl https://cli-assets.heroku.com/install.sh | sh
 

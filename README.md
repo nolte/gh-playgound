@@ -10,6 +10,6 @@ Project for play with different Github Applications.
 * https://github.com/marketplace/issue-label-bot
 
 
-## Static checks 
+## Static checks
 
 * https://github.com/adrienverge/yamllint
