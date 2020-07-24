@@ -17,6 +17,7 @@
     "workspaceFolder": "/go/src/github.com/nolte/gh-playgound",
     // "overrideCommand": "",
     "extensions": [
+        "mervin.markdown-formatter",
         // General backend
         "mohsen1.prettify-json",
         "redhat.vscode-yaml", // Kubernetes and Kedge syntax support
@@ -58,6 +59,7 @@
     "settings": {
         // General settings
         "files.eol": "\n",
+        "editor.formatOnSave": true,
         // Docker
         "remote.extensionKind": {
             "ms-azuretools.vscode-docker": "workspace"
