@@ -9,9 +9,10 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[docs/**.md]
+[{docs/**.md,.github/**.md}]
 # allow line break https://3os.org/markdownCheatSheet/lineBreaks/#line_break_with_2_spaces
 trim_trailing_whitespace = false
+indent_size = 2
 
 [{makefile,Makefile}]
 indent_style = tabs
