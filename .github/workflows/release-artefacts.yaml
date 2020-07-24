@@ -1,0 +1,17 @@
+name: Release Flow
+
+on:
+  create:
+    tags:
+      - "release/*"
+  push:
+    tags:
+      - "release/*"
+jobs:
+  releaseBuild:
+    name: ReleaseBuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get dependencies
+        run: |
+          echo "starting"
