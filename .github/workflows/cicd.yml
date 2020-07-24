@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "hallo 2"
       - name: EditorConfig-Action
-        uses: zbeekman/EditorConfig-Action@v1.1.1
+        uses:  plevie/EditorConfig-Action
 
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v1
