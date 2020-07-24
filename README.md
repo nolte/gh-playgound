@@ -8,3 +8,8 @@ Project for play with different Github Applications.
 * https://probot.github.io/apps/boring-cyborg/
 
 * https://github.com/marketplace/issue-label-bot
+
+## Static checks
+
+* https://github.com/adrienverge/yamllint
+* https://github.com/marketplace/actions/editorconfig-lint

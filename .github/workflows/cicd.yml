@@ -13,6 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: dummy action
         run: |
           echo "hallo 2"
+
+      - name: EditorConfig-Action
+        uses: greut/eclint-action@v0
+
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v1
+        with:
+          config_file: .yamllint.yml
