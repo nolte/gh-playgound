@@ -16,6 +16,9 @@ jobs:
       - name: dummy action
         run: |
           echo "hallo 2"
+      - name: EditorConfig-Action
+        uses: zbeekman/EditorConfig-Action@v1.1.1
+
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v1
         with:
