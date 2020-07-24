@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Get dependencies
         run: |
-          echo "starting"    
+          echo "starting"
