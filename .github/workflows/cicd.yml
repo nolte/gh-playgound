@@ -16,3 +16,7 @@ jobs:
       - name: dummy action
         run: |
           echo "hallo 2"
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v1
+        with:
+          config_file: .yamllint.yml
